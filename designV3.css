@@ -1,0 +1,502 @@
+header {
+    background-color : rgba(0,0,0,0.6);
+    background-size: contain, no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url("images/terresDuMilieu.jpg");
+    justify-content: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat : no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    padding-top : 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+hr {
+    background-color: #f5b041;
+    color: #f5b041;
+    border: 1px solid #dc7633;
+    border-radius: 5em;
+    padding: 2px;
+    width: 500px;
+    margin-bottom: 2em;
+}
+
+.petit {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banniere {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    text-decoration: none;
+    font-size: 20px;
+    color: white
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-weight: bold;
+    color: white;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    display: block;
+    min-width: 150px;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.menu a:hover,
+.banniere a:hover {
+    color:   #f7dc6f ;
+    text-shadow: 2px 2px 3px  #dc7633;
+}
+
+.rechercher {
+    height: 25px;
+    width: 150px;
+    font-size: 14px
+}
+
+.recherches {
+    height: 30px;
+    width: 300px;
+    font-size: 14px
+}
+
+.boutonIndex {
+    display: inline-block;
+    background-position: right;
+    background-color:   #eb984e;
+    color: white;
+    font-size: 15px;
+    border: 2px solid  #ba4a00;
+    border-radius: 1.5em;
+    padding: 1.5em;
+    text-align: center;
+    width: 200px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    max-width: 100%;
+    height: auto;
+}
+
+.boutonMenu {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     background-color:   #eb984e;
+     color: white;
+     font-size: 15px;
+     border: 2px solid  #ba4a00;
+     border-radius: 1.5em;
+     padding: 0.5em;
+     text-align: center;
+     width: 160px;
+     max-width: 100%;
+     height: auto;
+ }
+
+.boutonUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color:   #eb984e;
+    color: white;
+    font-size: 15px;
+    border: 2px solid  #ba4a00;
+    border-radius: 1.5em;
+    padding: 0.5em;
+    margin-left : auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+    width: 160px;
+    max-width: 100%;
+    height: auto;
+}
+
+.boutonDeroulant {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    background-color:   #eb984e;
+    color: white;
+    font-size: 15px;
+    border: 2px solid  #ba4a00;
+    border-radius: 1.5em;
+    padding: 0.5em;
+    margin-bottom : 1em;
+    text-align: center;
+    width: 160px;
+    max-width: 100%;
+    height: auto;
+}
+
+.boutonAutre {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color:   #eb984e;
+    color: white;
+    font-size: 15px;
+    border: 2px solid  #ba4a00;
+    border-radius: 1.5em;
+    padding: 1em;
+    margin-bottom : 0;
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+}
+
+.indisponible {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #f37549;
+    color: white;
+    font-size: 15px;
+    border: 2px solid  #ba4a00;
+    border-radius: 1.5em;
+    padding: 0.5em;
+    margin-left : auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+}
+.disponible {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color:   #eb984e;
+    color: white;
+    font-size: 15px;
+    border: 2px solid  #ba4a00;
+    border-radius: 1.5em;
+    padding: 0.5em;
+    margin-left : auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color:   #f4d03f;
+    color :   #873600;
+    font-family: 'Nova Oval', cursive;
+}
+.bouton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.connection {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: white;
+    border: 2px solid #f5b041;
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+.titresolo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    text-align: center;
+    background: white;
+    border: 2px solid #f5b041;
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 900px;
+    height: auto;
+    padding : 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.titreadmin {
+    text-align: center;
+    background: white;
+    border: 2px solid #f5b041;
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 890px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titreemprunt {
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    text-align: center;
+    background: white;
+    border: 2px solid #f5b041;
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    padding-top : 0.5em;
+    padding-bottom : 0.5em;
+    margin : auto;
+}
+
+.connectionLivres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    border: 2px solid rgba(255,255,255, 0);
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+    padding-bottom : 1em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.connectionModif {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    border: 2px solid rgba(255,255,255, 0);
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 900px;
+    height: auto;
+    padding-bottom : 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grille {
+    background: white;
+    border: 2px solid #f5b041;
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    max-width: 100%;
+    text-align : center;
+}
+
+.connectionIndex {
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    text-align: center;
+    background: white;
+    border: 2px solid #f5b041;
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    padding-bottom : 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 19%;
+}
+
+.connectionAdmin2 {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: white;
+    border: 2px solid #f5b041;
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 900px;
+    height: auto;
+    padding : 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+.connectionChangement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    border: 2px solid rgba(255,255,255, 0);
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 900px;
+    height: auto;
+    padding-bottom : 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.connectionCreation {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: white;
+    border: 2px solid #f5b041;
+    box-shadow: 0 0 50px 0 rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    max-width: 100%;
+    width: 900px;
+    height: auto;
+    padding-bottom : 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Nova Oval', cursive;
+}
+
+.labelcrea {
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: right;
+    padding-right: 20px;
+    font-family: 'Nova Oval', cursive;
+}
+
+.creation,
+.profil,
+.categorie {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    min-height: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 10px;
+    text-align: center;
+    overflow: auto;
+}
+
+.creation {
+    padding-bottom: 9.5%;
+}
+
+.categorie {
+    padding-bottom: 21%;
+}
+
+.rechercheCategorie {
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 0.5em
+}
+
+.rechercheAdmin {
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em
+}
+
+.rechercheAjout {
+    border-radius: 0.5em;
+    margin-bottom : 0.5em;
+}
+
+.date { /*dans la page création de compte*/
+    width: 10.7em;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    background-color : rgba(0,0,0,0.7);
+    padding: 5px;
+    bottom:0;  /* on le colle en bas */
+    width: 100%;
+    height: 50px;
+}
+
+.copyright {
+    color: white;
+}
